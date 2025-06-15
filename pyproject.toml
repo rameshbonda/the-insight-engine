@@ -1,0 +1,12 @@
+[project]
+name = "the-insight-engine"
+version = "0.1.0"
+description = "Automated clients comments classification"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "pandas>=2.3.0",
+    "requests>=2.32.4",
+    "scikit-learn>=1.7.0",
+]
