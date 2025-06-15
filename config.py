@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-API_KEY = os.getenv("TACHYON_API_KEY")
+API_KEY = "TACHYON_API_KEY"
 
 VECTOR_STORE_NAME = "client-comments-store"
 CATEGORY_THRESHOLD = 0.8
